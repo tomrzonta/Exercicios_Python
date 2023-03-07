@@ -1,0 +1,48 @@
+Exercícios de fixação
+
+1 - Solicite um numero inteiro e imprima:
+
+idade = input(f'Informe a sua idade: ')
+print(f'A idade informada é {idade}.')
+
+2 - Leia um número real e imprima:
+
+salario = float(3.500)
+print(f'O salário pretendido é: {salario}')
+print(type(salario))
+
+3 - Peça para o usuario informar 3 valores inteiros e imprima a soma dos 3 valores:
+
+numero1 = int(input('Informe o valor: '))
+numero2 = int(input('Informe o valor: '))
+numero3 = int(input('Informe o valor: '))
+total = numero1 + numero2 + numero3
+print(f'A soma dos três valores é: {total}')
+print(type(total))
+
+4 - Leia um numero real e imprima o seu valor ao quadrado:
+
+n = 4
+r = n ** 2
+print(r)
+
+5 - Leia um numero real e imprima a quita parte deste numero
+
+n = float(input(f'Digite um numero real: '))
+print(f'A quinta parte do numero informado é {n / 5}')
+
+6 - Leia a temperatura em Celcius e converta para Fahreinheit:
+
+c = float(input(f'Informe a temperatura em Celcius: '))
+f = c * (9.0/5.0)+ 32.0
+print(f'A temperatura em Celcius convertida para Fahreiheit é de: {f} ')
+
+7 - Leia a temperatura em Fahreinheit e converta para Celcius:
+
+f = float(input(f'Qual a temperatura em Fahreinheit: '))
+print(f'A tempera em Fahreinheit convertida para Celcius é: {5 * (f - 32)/9}')
+
+8 - Leia a temperatura em Kelvin e converta para Celcius:
+
+tk = float(input(f'Informe da temperatura em Kelvin: '))
+print(f'A temperatura em Kelvin convertida para Celcius é : {tk - 273.15}')
